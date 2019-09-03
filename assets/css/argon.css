@@ -15482,15 +15482,115 @@ button.section-darker:focus
 {
     background: linear-gradient(87deg, #212529 0, #212229 100%) !important;
 }
-
+/* background gradient */
 .bg-gradient-default
 {
-    background: linear-gradient(87deg, #172b4d 0, #1a174d 100%) !important;
+    background: linear-gradient(87deg, #172b4d 0, #000000 100%) !important;
 }
 
 .bg-gradient-white
 {
     background: linear-gradient(87deg, #fff 0, white 100%) !important;
+}
+
+/* CUSTOM CSS */
+
+.card-body {
+    padding: 1.5rem;
+    flex: 1 1 auto;
+    background-color: #0C1829 !important;
+    border-radius: 5px !important;
+}
+
+.FooterSocial, {
+      color: #8dabc6 !important;
+    }
+.copyright.text-center.text-xl-left.text-muted, .Platforms{
+    color:#0c1829 !important;
+}
+
+.form-control {
+    border-radius: 25px !important;
+    height: 35px;
+}
+.shadow, .card-profile-image img {
+     box-shadow: none !important; 
+}
+
+a.btn.btn-info.download {
+    background-color: #ddb43f !important   ;
+    border: none !important;
+}
+
+h1.display-2.text-white {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #ddb43f !important;
+}
+
+.card-profile-image img {
+    position: absolute;
+    left: 50%;
+    max-width: 180px;
+    transition: all .15s ease;
+    transform: translate(-50%, -30%);
+    border-radius: .375rem;
+    border: 5px solid #ddb43f !important;
+}
+
+p.text-white.mt-0.mb-5 {
+    color: #fff9e7 !important;
+}
+
+.focused .form-control {
+    background-color: #062f4e!important;
+}
+.card-header.bg-white.border-0 {
+    background-color: #0C1829 !important;
+    border-bottom: 0.4px solid #062f4e !important;
+}
+
+.card.bg-secondary.shadow {
+    background-color: #0C1829 !important;
+}
+
+h3.mb-0, h3 {
+    color: #8dabc6;
+}
+
+.my-4 {
+    margin-bottom: 1.5rem !important;
+    background-color: #00355e !important;
+}
+
+a {
+    text-decoration: none;
+    color: #DDB43F;
+}
+a:hover {
+    text-decoration: none;
+    color: #DDB43F;
+}
+
+p, code {
+    color: #bec9d3 !important;
+}
+
+.hashtag {
+    background-color: #062f4e !important;
+    color: #b5c5d3 !important;
+}
+
+.card-header.text-center.border-0.pt-8.pt-md-4.pb-0.pb-md-4 {
+    background-color: #0C1829 !important;
+}
+
+[class*='shadow'] {
+    transition: all .15s ease;
+    background-color: #0C1829 !important;
+}
+
+.h5 {
+    color: #84a6c4 !important;
 }
 
 .bg-gradient-neutral
